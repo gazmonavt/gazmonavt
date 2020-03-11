@@ -1,0 +1,84 @@
+@import url("https://marksheet.io/css/reset.css");
+
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.column {
+    flex-direction: column;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.col-1 {
+    flex:1;
+}
+
+.col-2 {
+    flex:2;
+}
+
+.col-3 {
+    flex:3;
+}
+
+.col-4 {
+    flex:4;
+}
+
+.col-5 {
+    flex:5;
+}
+
+.col-6 {
+    flex:6;
+}
+
+@media(max-width; 800px) {
+    .container {
+        flex-direction: column;
+    }
+}
+
+header {
+    flex: 0 0 auto;
+}
+
+main > div.container {
+    flex: 0 0 auto;
+}
+
+section {
+    flex: 3 0 auto;
+    padding: 0 15px;
+}
+
+footer {
+    flex: 0 0 auto;
+}
